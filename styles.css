@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #ce6262;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  background-color: #214252;
+  max-width: 400px;
+  width: 100%;
+  padding: 25px;
+  -webkit-box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.4);
+          box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.pw-field {
+  width: 100%;
+  background-color: #285165;
+  padding: 0.4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 20px;
+}
+
+.pw-field i {
+  color: white;
+  height: 20px;
+  width: 20px;
+}
+
+.pw-field button {
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 5px;
+  background-color: #f05454;
+  border: 0;
+  outline: 0;
+}
+
+.pw-field button:hover {
+  background-color: #ff6b6b;
+}
+
+.checkbox-container {
+  margin: 3rem 0;
+}
+
+.form-control {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.5rem 0;
+}
+
+#length {
+  color: black;
+  text-align: center;
+  width: 20%;
+  outline: 0;
+}
+
+.generate {
+  width: 100%;
+  color: white;
+  padding: 0.5rem 0;
+  background-color: #f05454;
+  border: 0;
+  outline: 0;
+}
+
+.generate:hover {
+  background-color: #ff6b6b;
+}
+/*# sourceMappingURL=styles.css.map */
